@@ -9,12 +9,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 40px;
 }
 
 /* counter */
-.counter-container {
-  padding: 20px;
+.container-counter {
+  padding: 40px;
 }
 
 .container-counter h3 {
@@ -30,7 +29,7 @@
 /* button click Hello! */
 .button-click-hello {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 
 .button-click-hello button {
@@ -45,6 +44,7 @@
 
 .button-change {
   text-align: center;
+  padding: 20px;
 }
 
 .button-change button {
