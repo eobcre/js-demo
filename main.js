@@ -6,3 +6,10 @@ let clickIncrement = () => {
   count++;
   counterElement.innerHTML = count;
 };
+
+let clickDecrement = () => {
+  if (count > 0) {
+    count--;
+    counterElement.innerHTML = count;
+  }
+};
