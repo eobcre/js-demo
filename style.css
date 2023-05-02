@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+/* counter */
+.container-counter h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-counter button {
+  padding: 3px;
+  margin-right: 6px;
+}
