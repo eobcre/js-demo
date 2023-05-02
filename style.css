@@ -13,6 +13,10 @@
 }
 
 /* counter */
+.counter-container {
+  padding: 20px;
+}
+
 .container-counter h3 {
   text-align: center;
   padding: 20px;
@@ -26,7 +30,7 @@
 /* button click Hello! */
 .button-click-hello {
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 .button-click-hello button {
@@ -35,5 +39,15 @@
 }
 
 .button-click-hello p {
-  padding: 30px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.button-change {
+  text-align: center;
+}
+
+.button-change button {
+  padding: 3px;
+  margin-top: 30px;
 }
