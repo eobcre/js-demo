@@ -13,3 +13,8 @@ let clickDecrement = () => {
     counterElement.innerHTML = count;
   }
 };
+
+let clickReset = () => {
+  count = 0;
+  counterElement.innerHTML = count;
+};
