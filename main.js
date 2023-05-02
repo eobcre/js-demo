@@ -18,3 +18,11 @@ let clickReset = () => {
   count = 0;
   counterElement.innerHTML = count;
 };
+
+// button click Hello!
+const buttonElement = document.getElementById('button');
+
+button.addEventListener('click', () => {
+  target = document.getElementById('output');
+  target.innerHTML = 'Hello!';
+});
