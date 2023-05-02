@@ -22,7 +22,14 @@ let clickReset = () => {
 // button click Hello!
 const buttonElement = document.getElementById('button');
 
-button.addEventListener('click', () => {
+buttonElement.addEventListener('click', () => {
   target = document.getElementById('output');
   target.innerHTML = 'Hello!';
 });
+
+// button change
+const buttonElement2 = document.getElementById('button-change');
+
+const handleClickButton = () => {
+  buttonElement2.innerHTML = 'CLICKED';
+};
