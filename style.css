@@ -22,3 +22,18 @@
   padding: 3px;
   margin-right: 6px;
 }
+
+/* button click Hello! */
+.button-click-hello {
+  text-align: center;
+  padding: 50px;
+}
+
+.button-click-hello button {
+  padding: 3px;
+  margin-top: 30px;
+}
+
+.button-click-hello p {
+  padding: 30px;
+}
